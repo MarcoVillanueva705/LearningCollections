@@ -10,6 +10,8 @@ namespace LearningCollections
             var studentNames = new List<string>();
             var studentGrades = new List<int>();
 
+            //boolean that means in this while loop, all code will
+            //continue to happen in it until reaching a false condition
             var adding = true;
 
             while(adding)
