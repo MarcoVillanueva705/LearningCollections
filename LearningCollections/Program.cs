@@ -26,6 +26,8 @@ namespace LearningCollections
 
                 if(Console.ReadLine() != "y")
                 {
+                    //break out of while loop because we flip the
+                    //boolean and adding arg to false once "y" typed
                     adding = false;
                 }
 
