@@ -20,6 +20,7 @@ namespace LearningCollections
                 studentNames.Add(Console.ReadLine());
 
                 Console.Write("Student Grade...");
+                //handling an exception
                 studentGrades.Add(int.Parse(Console.ReadLine()));
 
                 Console.Write("Add another student? y/n");
